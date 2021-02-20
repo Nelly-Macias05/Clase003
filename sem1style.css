@@ -1,0 +1,104 @@
+
+       
+       p{
+           color:fuchsia !important;
+           text-align: center;
+       }
+
+       p{
+        color:orange;
+    }
+
+    p{
+        color:brown;
+    }
+
+    .cubo1{
+        background-color: lightblue;
+        width: 300px;
+        border-left: 15px solid lightcoral;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        display: block;
+        
+    }
+
+    
+    .cubo2{
+        background-color: lightgoldenrodyellow;
+        width: 300px;
+        border: 15px solid lightcoral;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        display: none;
+    }
+
+       a:link{
+
+            color:blueviolet;
+        }
+
+        a:visited{
+            color:red;
+        }
+
+        a:hover{
+            background-color:black;
+        }
+
+        a:active{
+
+            color:springgreen;
+        }
+        h2,h3{
+            color:rgb(255,0, 0); /*POR ATRIBUTO*/
+            font-size: 20px;
+        }
+        .colorazul{
+            color:blue;/*POR CLASE*/
+        }
+
+        #hola2{
+            color :palevioletred;/*POR ID*/
+        }
+
+        p a{ /*el hijo proximo de un parrafo que sea un hipervinculo*/
+            font-size: 30px;
+        }
+
+        p * a{ /*el hijo proximo de un parrafo (del tipo que sea)que contenga como hijo proximo un hipervinculo*/
+            font-size: 30px;
+        }
+        
+        /* p.Estilo{ /* los parrafos que tengan la clase estilo*/
+         /*   font-size: 30px;
+            color:green;
+            font-weight: 500;
+        }*/
+
+        /*p::before{
+            content:"<< Antes ";
+            color:green;
+
+        }
+
+        p::after{
+            content:" Despues >>";
+            color:red;
+        }
+
+        li::before{
+            content: "◕";
+            color:salmon;
+        }
+
+        p::first-letter{
+            font-size: 50px;
+            color:cornflowerblue;
+        }
+
+        div:hover{
+            background-color: springgreen;
+        }*/
